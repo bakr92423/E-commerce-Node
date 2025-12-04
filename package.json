@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js "
+    "start": "node index.js"
   },
- 
   "keywords": [],
   "author": "",
-   "engines": {
-    "node": "20.15.0"
+  "engines": {
+    "node": "20"
   },
   "license": "ISC",
   "description": "",
@@ -19,14 +18,15 @@
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
-    "express": "^5.1.0",
+    "express": "^4.19.2",
     "express-validator": "^7.2.1",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.14.0",
-    "multer": "^2.0.1",
-    "multer-storage-cloudinary": "^4.0.0",
+    "multer": "^1.4.5",
     "nodemailer": "^7.0.5",
     "nodemon": "^3.1.10",
-    "slugify": "^1.6.6"
+    "slugify": "^1.6.6",
+    "streamifier": "^0.1.1"
   }
 }
+
