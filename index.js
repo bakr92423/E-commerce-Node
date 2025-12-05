@@ -16,7 +16,7 @@
   require('dotenv').config()
   app.use(express.json())
   app.use(cors({
-  origin: 'http://localhost:3000', // نفس عنوان الفرونت
+  origin: 'https://e-commerce-node-alpha.vercel.app', // نفس عنوان الفرونت
   credentials: true,               // ضروري لإرسال الكوكيز
 }));
  
