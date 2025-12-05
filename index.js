@@ -15,10 +15,7 @@
     const cookieParser = require('cookie-parser');
   require('dotenv').config()
   app.use(express.json())
-  app.use(cors({
-  origin: 'https://e-commerce-node-alpha.vercel.app', // نفس عنوان الفرونت
-  credentials: true,               // ضروري لإرسال الكوكيز
-}));
+app.use(cors());
  
   
 
